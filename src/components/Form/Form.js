@@ -21,10 +21,11 @@ const Form = function () {
       const data = await fetchProfile(usernameRef.current.value);
       setData(data);
       setErrorMessage("");
+      usernameRef.current.value = "";
     } catch (error) {
       setErrorMessage(error.message);
       setData({});
-      console.log(error.message);
+      usernameRef.current.value = "";
     }
   };
 
