@@ -35,7 +35,7 @@ const Form = function () {
         <input
           type="text"
           className={styles.input}
-          placeholder="Enter username"
+          placeholder="Enter github username"
           ref={usernameRef}
         />
         <button type="submit" className={styles.button}>
