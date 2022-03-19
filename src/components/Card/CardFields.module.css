@@ -1,0 +1,15 @@
+.fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fieldValue,
+.fieldTitle {
+  color: black;
+  padding: 1rem 0;
+}
+
+.fieldTitle {
+  font-weight: 700;
+  font-size: 1.1rem;
+}

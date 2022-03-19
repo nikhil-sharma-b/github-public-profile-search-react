@@ -1,0 +1,41 @@
+.form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input,
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: white;
+  outline: none;
+}
+
+.input {
+  border-radius: 12px 0 0 12px;
+}
+
+.input::placeholder {
+  opacity: 0.5;
+}
+
+.button {
+  color: #e4ca74;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0 12px 12px 0;
+}
+
+.button:hover {
+  color: white;
+  background-color: #e4ca74;
+}
+
+.error {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
